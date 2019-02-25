@@ -1,4 +1,4 @@
-# My solutions of the [exercism](https://exercism.io/) tracks
+# My [exercism](https://exercism.io/) tracks solutions
 
 | track | status |
 |-------|--------|
