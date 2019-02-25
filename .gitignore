@@ -13,4 +13,3 @@ teams
 *.lock
 *.iml
 python
-scala

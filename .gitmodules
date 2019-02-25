@@ -4,3 +4,6 @@
 [submodule "kotlin"]
 	path = kotlin
 	url = https://github.com/uzilan/exercism-solutions-kotlin.git
+[submodule "scala"]
+	path = scala
+	url = https://github.com/uzilan/exercism-solutions-scala.git
