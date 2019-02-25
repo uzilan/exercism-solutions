@@ -7,3 +7,6 @@
 [submodule "scala"]
 	path = scala
 	url = https://github.com/uzilan/exercism-solutions-scala.git
+[submodule "python"]
+	path = python
+	url = https://github.com/uzilan/exercism-solutions-python.git
