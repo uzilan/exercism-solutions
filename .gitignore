@@ -1,0 +1,16 @@
+users
+.DS_Store
+.idea
+.keep
+out
+bin
+lib
+build
+target
+teams
+*.class
+*.bin
+*.lock
+*.iml
+python
+scala

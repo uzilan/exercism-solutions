@@ -1,3 +1,6 @@
 [submodule "java"]
 	path = java
 	url = https://github.com/uzilan/exercism-solutions-java.git
+[submodule "kotlin"]
+	path = kotlin
+	url = https://github.com/uzilan/exercism-solutions-kotlin.git
