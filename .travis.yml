@@ -31,4 +31,5 @@ matrix:
       before_script:
         - flake8
       script:
+        - cd python
         - pytest
