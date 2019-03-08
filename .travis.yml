@@ -1,10 +1,6 @@
 jobs:
   include:
-    - stage: java
-      script: java/.travis.yml
-    - stage: kotlin
-      script: kotlin/.travis.yml
-    - stage: scala
-      script: scala/.travis.yml
-    - stage: python
-      script: python/.travis.yml
+    - script: java/.travis.yml
+    - script: kotlin/.travis.yml
+    - script: scala/.travis.yml
+    - script: python/.travis.yml
