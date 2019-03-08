@@ -1,6 +1,13 @@
-jobs:
+matrix:
   include:
-    - script: java/.travis.yml
-    - script: kotlin/.travis.yml
-    - script: scala/.travis.yml
-    - script: python/.travis.yml
+    - language: java
+      install: true
+      jdk:
+        - openjdk11
+      script:
+        - ./gradlew test
+    - language: scala
+      scala:
+        - 2.12.8
+      script:
+        - sbt test
