@@ -10,3 +10,6 @@
 [submodule "python"]
 	path = python
 	url = https://github.com/uzilan/exercism-solutions-python.git
+[submodule "go"]
+	path = go
+	url = https://github.com/uzilan/exercism-solutions-go.git
