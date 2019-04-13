@@ -13,3 +13,6 @@
 [submodule "go"]
 	path = go
 	url = https://github.com/uzilan/exercism-solutions-go.git
+[submodule "groovy"]
+	path = groovy
+	url = https://github.com/uzilan/exercism-solutions-groovy.git
