@@ -12,3 +12,4 @@ teams
 *.bin
 *.lock
 *.iml
+.gradle
