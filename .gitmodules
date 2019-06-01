@@ -16,3 +16,6 @@
 [submodule "groovy"]
 	path = groovy
 	url = https://github.com/uzilan/exercism-solutions-groovy.git
+[submodule "clojure"]
+	path = clojure
+	url = https://github.com/uzilan/exercism-solutions-clojure.git
