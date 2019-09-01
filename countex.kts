@@ -9,17 +9,15 @@ private var template = File(templateName).readText()
 File(".").listFiles()
         ?.filter { it.isDirectory && !IGNORED_DIRS.contains(it.name) }
         ?.forEach {
-            val name = it.name
-            val oldValue = "{$name-count}"
-            val newValue = countSolutions(it).toString()
-            template = template.replace(oldValue, newValue)
+            val exercisesCountPlaceholder = "{${it.name}-count}"
+            val exercisesCount = countSolutions(it).toString()
+            template = template.replace(exercisesCountPlaceholder, exercisesCount)
         }
 
 File(readmeName).writeText(template)
 
 fun countSolutions(dir: File): Int {
-    val listFiles = dir.listFiles()
-    return listFiles
+    return dir.listFiles()
             ?.filter { it.isDirectory }
             ?.filter { it.containsExercism() || it.containsSolutionJson() }
             ?.size ?: 0
