@@ -22,3 +22,6 @@
 [submodule "exercism-jenkins-runner"]
 	path = exercism-jenkins-runner
 	url = https://github.com/uzilan/exercism-jenkins-runner.git
+[submodule "typescript"]
+	path = typescript
+	url = git@github.com:uzilan/exercism-solutions-typescript.git
